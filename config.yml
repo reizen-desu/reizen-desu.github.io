@@ -1,0 +1,243 @@
+baseURL: "https://reizen-desu.github.io/"
+title: "@reizen-desu"
+paginate: 5
+theme: PaperMod
+
+# label:
+#     text: ahmubashshir
+#     icon: "/assets/profile1.jpg"
+#     iconHeight: 32
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# enableMissingTranslationPlaceholders: true
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+languages:
+    en:
+        languageName: "English"
+        # contentDir: content/en
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        profileMode:
+            enabled: true
+            title: "Reizen Dos Santos"
+            imageUrl: "/assets/profile.jpg"
+            imageTitle: "image of Reizen"
+            imageWidth: 200
+            imageHeight: 200
+            subtitle: "💻 Technology | 🎨 Design & art | 💭 Philosophy | 📖 Reading"
+            buttons:
+                - name: Blog
+                  url: posts
+                - name: Tags
+                  url: tags
+        menu:
+            main:
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Search
+                  url: search/
+                  weight: 15
+                - name: Tags
+                  url: tags/
+                  weight: 10
+                - name: Categories
+                  url: categories/
+                  weight: 10
+
+
+    pt:
+        languageName: "Português"
+        languageAltTitle: Portuguese
+        # contentDir: content/pt
+        weight: 2
+        title: "@reizen-desu"
+        taxonomies:
+          category: Categorias
+          tag: Tags
+          series: Series
+        profileMode:
+            enabled: true
+            title: "Reizen Dos Santos"
+            imageUrl: "assets/profile1.jpg"
+            imageTitle: my image
+            imageWidth: 200
+            imageHeight: 200
+            subtitle: "💻 Tecnologia | 🎨 Design | 💭 Filosofia | 📖 Ler"
+            buttons:
+                - name: Blog
+                  url: posts
+                - name: Tags
+                  url: tags
+        menu:
+            main:
+                - name: Arquivos
+                  url: archives/
+                  weight: 5
+                - name: Tags
+                  url: tags/
+                  weight: 10
+                # - name: Categorias
+                  # url: categories/
+                  # weight: 15
+                # - name: Séries
+                  # url: frseries
+                  # weight: 10
+                - name: 🔎Pesquisar
+                  url: search/
+                # - name: NullLink
+                  # url: "#"
+
+
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "I'm the landlord"
+    author: Reizen
+    # author: ["Me", "You"] # multiple authors
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: true
+    ShowToc: true
+    # comments: false
+    images: ["papermod-cover.png"]
+
+    profileMode:
+        enabled: false
+        title: Homepage
+        imageUrl: "#"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+            - name: Archives
+              url: archives
+            - name: Tags
+              url: tags
+
+    homeInfoParams:
+        Title: "Home"
+        Content: >
+            Bem vindo ao meu blog pessoal
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/reizen-desu/"
+        - name: KoFi
+          url: "https://ko-fi.com/reizendesu"
+        - name: Discord
+          url: "https://discord.gg/ahpmTvhVmp"
+        - name: RsS
+          url: "index.xml"
+        - name: Twitter
+          url: "https://twitter.com/ReizenIunus"
+        - name: Lastfm
+          url: "https://www.last.fm/user/reizen-desu"
+        - name: Email
+          url: "mailto:reizen.dos.santos@gmail.com"
+        - name: Telegram
+          url: "https://t.me/reizen_desu"
+        - name: Discord
+          url: "https://discord.com/users/334860838181666816"
+
+
+    editPost:
+        URL: "https://github.com/reizen-desu/reizen-desu.github.io/tree/master/content"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link
+
+    # label:
+    #     text: "Home"
+    #     icon: icon.png
+    #     iconHeight: 35
+
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+
+    assets:
+        favicon: "/assets/profile.jpg"
+        favicon16x16: "/assets/favicon16.jpg"
+        favicon32x32: "/assets/favicon32.jpg"
+        msTileColor: "#1d1e20"
+    #     apple_touch_icon: "<link / abs url>"
+    #     safari_pinned_tab: "<link / abs url>"
+
+
+    # cover:
+    #     hidden: true # hide everywhere but not in structured data
+    #     hiddenInList: true # hide on list pages and home
+    #     hiddenInSingle: true # hide on single page
+
+    # fuseOpts:
+    #     isCaseSensitive: false
+    #     shouldSort: true
+    #     location: 0
+    #     distance: 1000
+    #     threshold: 0.4
+    #     minMatchCharLength: 0
+    #     keys: ["title", "permalink", "summary", "content"]
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        noClasses: false
+        # anchorLineNos: true
+        # codeFences: true
+        # guessSyntax: true
+        # lineNos: true
+        # style: monokai
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
