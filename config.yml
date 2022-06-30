@@ -140,7 +140,7 @@ params:
   EnableInstantClick: true
   EnableImageZoom: true
 
-  comments: true
+  comments: false
 
   # commentSystems:
   # 	disqus:
@@ -193,6 +193,8 @@ params:
       url: "https://www.linkedin.com/in/reizen-iunus/"
     - name: rss-simple
       url: "index.xml"
+    - name: cv
+      url: "https://registry.jsonresume.org/reizen-desu"
 
   editPost:
     URL: "https://github.com/reizen-desu/reizen-desu.github.io/tree/master/content"
