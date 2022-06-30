@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Publicações on @reizen-desu</title>
+    <link>https://reizen-desu.github.io/pt/posts/</link>
+    <description>Recent content in Publicações on @reizen-desu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 30 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://reizen-desu.github.io/pt/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Começando a jornada</title>
+      <link>https://reizen-desu.github.io/pt/posts/beginning-the-journey/</link>
+      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://reizen-desu.github.io/pt/posts/beginning-the-journey/</guid>
+      <description>Primeiro post descrevendo como eu montei meu blog</description>
+      <content:encoded><![CDATA[<h2 id="e-assim-tudo-começou">E assim tudo começou</h2>
+<p>Montar um blog sempre esteve na minha lista de tarefas. Só que estando focado na universidade e noutras áreas de interesse, eu sempre acabava por adiar. Entretanto, estando de férias agora, eu tenho um tempo livre para <em>desenterrar</em> o que estava na minha lista (que não para de crescer kk).</p>
+<p>Então pelos últimos dois dias eu estive lendo como fazer isso usando o Hugo. Para adoção do Hugo inspirei-me num meu amigo que ama muito Linux e até estou usando o mesmo tema que o dele por achar ele muito prático e lindo.</p>
+<h2 id="de-qualquer-forma">De qualquer forma&hellip;</h2>
+<p>Estou contente que consegui chegar até aqui. O que falta é rechear este blogue com conteúdo que eu achar interessante (ao meu ver).</p>
+<p>Até a próxima!</p>]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

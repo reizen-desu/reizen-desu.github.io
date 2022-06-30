@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://reizen-desu.github.io/sitemap.xml
