@@ -4,6 +4,7 @@ paginate: 5
 theme: PaperModX
 
 disqusShortname: reizen-desu
+googleAnalytics: "G-HXTYB4YSY4"
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
