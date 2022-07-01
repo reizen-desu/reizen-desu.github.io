@@ -15,7 +15,6 @@ enableEmoji: true
 
 pygmentsUseClasses: true
 # enableMissingTranslationPlaceholders: true
-# googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
