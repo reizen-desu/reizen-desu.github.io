@@ -55,8 +55,8 @@ languages:
           url: /tags/
           weight: 10
         # - name: Categories
-          # url: categories/
-          # weight: 10
+        # url: categories/
+        # weight: 10
         - name: Posts
           url: /posts/
           weight: 10
@@ -146,11 +146,7 @@ params:
   # 	disqus:
   # 		shortname: reizen-desu
 
-
-
   images: ["papermod-cover.png"]
-
-
 
   profileMode:
     enabled: false
@@ -194,7 +190,7 @@ params:
     - name: rss-simple
       url: "index.xml"
     - name: cv
-      url: "https://registry.jsonresume.org/reizen-desu"
+      url: "/Reizen_Resume_2025.pdf"
 
   editPost:
     URL: "https://github.com/reizen-desu/reizen-desu.github.io/tree/master/content"
@@ -207,8 +203,8 @@ params:
   #     iconHeight: 35
 
   analytics:
-      google:
-          SiteVerificationTag: "G-HXTYB4YSY4"
+    google:
+      SiteVerificationTag: "G-HXTYB4YSY4"
 
   assets:
     favicon: "/images/profile.jpg"
